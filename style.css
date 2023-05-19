@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.top{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    color: #f9faf8;
+    gap: 400px;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.one{
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.main{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.sub{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder{
+    background-color: grey;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #e5e7eb;
+}
+
+.button{
+    background-color:#3882f6;
+    color: #f9faf8;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.image{
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.image-one img,.image-two img,.image-three img,.image-four img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: solid blue 2px;
+    border-radius: 10px;
+
+}
+
+.image-one,.image-two,.image-three,.image-four{
+    display: flex;
+    flex-direction: column;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.three{
+    background-color: #e5e7eb;
+    
+}
+
+.quote{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: auto;
+    font-style:italic;
+    color: #1f2937;
+}
+
+.quoter{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.action{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3882f6;
+    height: 140px;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    color: #f9faf8;
+}
+
+.time{
+    font-weight: bolder;
+}
+
+.product{
+    color: #e5e7eb;
+}
+
+.sign{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.finish{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+}
+
+
